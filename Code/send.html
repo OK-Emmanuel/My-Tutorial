@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Document</title>
+    <style>
+        html, body{
+            background: #007bff;
+        }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Poppins;
+        }
+        .text-form{
+            border-radius: 15px;
+        }
+        textarea{
+            resize:none;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 text-form bg-white p-5 shadow">
+                <h2 class="text-center">Send Message</h2>
+                <p class="text-center">Send Mail to Anyone from Localhost</p>
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <textarea name="text" class="form-control mb-3" id="" cols="30" rows="15" placeholder="Write or Paste something here"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="form-control btn btn-primary" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>  
+</body>
+</html>

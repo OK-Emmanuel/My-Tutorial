@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+            font-weight: 700;
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            height: 70vh;
+            align-items: center;
+        }
+        .controllers > button{
+            padding: 16px;
+            color: white;
+            background-color: red;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 0px;
+        }
+        .controllers >button:hover{
+            border: 2px solid red;
+            background-color: white;
+            color: red;
+            /* width: 10%; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="flex"> 
+        <div class="display flex-item"></div>
+        <div class="controllers flex-item"></div>
+    </div>
+
+    <script src="vrecorder.js"></script>
+
+</body>
+</html>

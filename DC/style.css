@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( rgb(56, 2, 2), red);
+    color: white;
+}
+p{
+    /* color: red; */
+    background-image: url('download.jfif');
+    background-attachment: local;
+    padding: 70px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+}
