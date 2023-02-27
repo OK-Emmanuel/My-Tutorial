@@ -23,16 +23,13 @@ if (isset($_POST['signup'])){
         // avoid existing user from registering again
         exit("User already exists");
     }else{
-
         // if user does not exist, create an account
     $action = mysqli_query($connection, $export);
         if($action){
             echo "<script>alert('You are successfully registered')</script>";
         }
-    
-
+    }
 }
-//}
 
 ?>
 <html>
